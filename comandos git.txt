@@ -1,0 +1,17 @@
+git status
+clear
+git config --global user.name " "
+git config --global user.email " "
+git config --list
+ls  = listar arquivos da pasta
+ls -a = listar arquivos ate mesmo escondidos
+git init = inicializar o repositorio git em determinada pasta (para saber se foi criada, aparece em azul "master")
+git config global init defaultBranch "master" = em aspas nome a ser declarado do repositorio
+exit
+git add " " = para adicionar determinado arquivo na comitação
+rm -fr .git/ = para remover o repositorio e pasta git (removeria ate mesmo o historico e tudo)
+git add . = para adicionar todos os arquivos da pasta
+git rm -- cached " " = em aspas nome do arquivo a ser removido do commit
+rm -- cached . = para remover todos os arquivos da pasta do commit
+git commit -m " " = em aspas o titulo do arquivo (para ter um controle de versão)
+se modificar o arquivo, usar mesmo comando anterior, porém com titulo diferente (para ter um controle de versão)
