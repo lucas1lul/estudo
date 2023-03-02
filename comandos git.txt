@@ -15,3 +15,16 @@ git rm -- cached " " = em aspas nome do arquivo a ser removido do commit
 rm -- cached . = para remover todos os arquivos da pasta do commit
 git commit -m " " = em aspas o titulo do arquivo (para ter um controle de versão)
 se modificar o arquivo, usar mesmo comando anterior, porém com titulo diferente (para ter um controle de versão)
+git diff = para ver a diferença entre o que esta commitado e o que está apenas salvo
+git diff --cached ou staged = para ver melhor
+git log = listagem de todos os commits feitos, do mais recente para o mais antigo
+q = quit para sair do ultimo comando feito
+git log --oneline = hash (endereçamento) do commit e o titulo salvo
+git lot -1 = esse número é o numero de commits que eu desejo ver na minha tela
+git log --online -1 = para diminuir a quantidade de informaçoes
+git log -p = aparecem as atualizações dos commits
+git log --stat = ver arquivos dos commits modificados
+git log --shortstat
+git commit --amend -m " " = trocar titulo do ultimo commit
+git commit --amend = abre um editor de texto para modificar o nome 
+git commit --amend --no-edit = salva e commita um arquivo nao comitado sem trocar seu nome
