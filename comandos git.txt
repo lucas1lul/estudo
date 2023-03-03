@@ -28,3 +28,13 @@ git log --shortstat
 git commit --amend -m " " = trocar titulo do ultimo commit
 git commit --amend = abre um editor de texto para modificar o nome 
 git commit --amend --no-edit = salva e commita um arquivo nao comitado sem trocar seu nome
+git checkout " " = em aspas espaço de endereçamento das versões anteriores
+git main = pra voltar ao principal, que no caso é o atual
+git commit --amend = faz com que abra o editor de texto VISUALSTUDIO
+git checkout "nome do arquivo.txt" = faz com que altere o arquivo para sua ultima VERSAO (só para arquivos commitados)
+git clean = repara arquivos não rastreados
+git clean -f = força e apaga arquivos não rastreados
+git checkout . = apaga arquivos já rastreados e modificados
+git rm --cached " " = em aspas o nome do arquivo em .txt = para remover arquivo da area de preparação
+git restore --staged = so funciona se ja tiver pelo menos algum commit, pois precisa de um ponto de partida (HEAD)
+git reset --hard = ignora tudo que esta acontecendo e limpar TUDO, menos arquivos irrastreaveis
