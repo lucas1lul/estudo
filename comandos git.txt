@@ -20,7 +20,7 @@ git diff --cached ou staged = para ver melhor
 git log = listagem de todos os commits feitos, do mais recente para o mais antigo
 q = quit para sair do ultimo comando feito
 git log --oneline = hash (endereçamento) do commit e o titulo salvo
-git lot -1 = esse número é o numero de commits que eu desejo ver na minha tela
+git lot -1 = esse número é o numero de commits que eu desejo ver na minha tela 
 git log --online -1 = para diminuir a quantidade de informaçoes
 git log -p = aparecem as atualizações dos commits
 git log --stat = ver arquivos dos commits modificados
@@ -39,3 +39,5 @@ git rm --cached " " = em aspas o nome do arquivo em .txt = para remover arquivo 
 git restore --staged = so funciona se ja tiver pelo menos algum commit, pois precisa de um ponto de partida (HEAD)
 git reset --hard = ignora tudo que esta acontecendo e limpar TUDO, menos arquivos irrastreaveis
 touch .gitignore = cria arquivos do tipo gitignore
+git update-index --skip-worktree "index.html" = atualizar o controle e nao considerar mais o arquivo em aspas
+git update-index --no-skip-worktree "index.html" = para atualizar e reconsiderar o arquivo em aspas
