@@ -38,3 +38,4 @@ git checkout . = apaga arquivos já rastreados e modificados
 git rm --cached " " = em aspas o nome do arquivo em .txt = para remover arquivo da area de preparação
 git restore --staged = so funciona se ja tiver pelo menos algum commit, pois precisa de um ponto de partida (HEAD)
 git reset --hard = ignora tudo que esta acontecendo e limpar TUDO, menos arquivos irrastreaveis
+touch .gitignore = cria arquivos do tipo gitignore
