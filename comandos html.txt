@@ -1,0 +1,21 @@
+<button> </button> = para adicionar um botao
+<br> = para adicionar uma quebra de linha, nao tem fechamento
+<strong> </strong> = para adicionar negrito no texto
+<em> </em> = para adicionar italico no texto
+<p> </p> = cria um parágrafo
+<h1> </h1> = cria um titulo de tamanho maior
+<h6> </h6> = cria um titulo de tamanho menor
+<title> </title> = para adicionar um titulo
+<!doctype html> = informa que estamos usando a versao mais recente do html
+<html> </html> = vem logo apos o doctype na estrutura da programacao e fecha apos tudo
+<body> </body> = para adicionar o corpo do texto
+<a> </a> = para criação de links
+href="" =  é um atributo para vincular o texto a uma pagina WEB
+<img> = para adicionar uma imagem, nao tem fechamento
+src = fonte da imagem, vem depois do "img"
+height = para definir altura da imagem, com o valor entre aspas
+width = para definir a largura da imagem com o valor entre aspas
+/r = é uma pasta armazenada no computador, colocada apos o link e antes do nome do arquivo em especifico por ex: "https://globo.com/r/vidaa.png"
+para acessar arquivos locais deixamos de fora o link e começaria apos o  /r 
+/img/ = acessar imagens locais
+<img src ="/img/vidaaa.png"> = estrutura para exibir uma imagem local.

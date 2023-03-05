@@ -23,7 +23,7 @@ git log --oneline = hash (endereçamento) do commit e o titulo salvo
 git lot -1 = esse número é o numero de commits que eu desejo ver na minha tela 
 git log --online -1 = para diminuir a quantidade de informaçoes
 git log -p = aparecem as atualizações dos commits
-git log --stat = ver arquivos dos commits modificados
+git log --stat = ver arquivos dos commits modificadoscm
 git log --shortstat
 git commit --amend -m " " = trocar titulo do ultimo commit
 git commit --amend = abre um editor de texto para modificar o nome 
@@ -46,3 +46,15 @@ git clone "" "" = clona a pasta da primeira aspa em uma nova pasta escolhida por
 cd"nome da pasta"/ = viaja ate a pasta desejada
 git remote add origin "url" = adiciona a url para salvar na nuvem o que vc faz, remotamente
 git remote set-url origin "url" = para atualizar se caso mudar o nome do diretorio no github na pasta do diretorio.
+git rebase -i HEAD~3 = para renomear um commit, no caso o ~3 é para aparecer os ultimos 3, podendo ser editado a qualquer momento
+git status para ver justamente se há trabalho pendente a ser maandado para o servidor
+git push = envia para o servidor tudo aquilo trabalhado em modo offline no bash
+git pull = traz todas as informações de arquivos e trabalhos feitos remotamente para a maquina
+usar o fork no github para pegar projetos publicos usaveis
+ssh-keygen = para gerar uma chave de segunraça aleatoria
+cd ~/.ssh/ = faz o bash ir ate a pasta ssh criada
+start . = abre a pasta que esta navegada no bash
+copia-se a chave para o github 
+caso negue pois a pasta criada do ID pode ter outro nome, se o arquivo estiver em nuvem
+caso negue usar comando eval $(ssh-agent)
+ssh-add ~/.ssh/ o caminho "nome da pasta"
