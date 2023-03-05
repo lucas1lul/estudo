@@ -58,3 +58,10 @@ copia-se a chave para o github
 caso negue pois a pasta criada do ID pode ter outro nome, se o arquivo estiver em nuvem
 caso negue usar comando eval $(ssh-agent)
 ssh-add ~/.ssh/ o caminho "nome da pasta"
+git branch = para mostrar as branchs
+git branch "" = para criar uma branch com o nome desejado(nome nao pode ter espaços)
+git checkout "" = para trocar de perfil de branch para a desejada
+git checkout -b "nome desejado" = para criar uma branch e ja trocar de perfil
+git switch - = troca para a ultima branch
+git switch "" = troca para a branch desejada
+git switch -c "" = cria e troca de branch
