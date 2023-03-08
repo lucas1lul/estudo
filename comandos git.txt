@@ -58,12 +58,16 @@ copia-se a chave para o github
 caso negue pois a pasta criada do ID pode ter outro nome, se o arquivo estiver em nuvem
 caso negue usar comando eval $(ssh-agent)
 ssh-add ~/.ssh/ o caminho "nome da pasta"
+git push --set-upstream origin "nome da branch" = para enviar uma outra branch ao servidor remoto
+git branch -d "nome da branch" = deleta a branch selecionada
+git branch -D "nome da branch" = força a exclusao mesmo q apareça mensagem no git
+git push --delete origin "nome da branch" = deleta a branch remota
+git branch -m "nome novo da branch" = para mudar o nome da branch local
+git log "nome da branch" --oneline = para ver o historico de commits de determinada 
 git branch = para mostrar as branchs
-git branch "" = para criar uma branch com o nome desejado(nome nao pode ter espaços)
-git checkout "" = para trocar de perfil de branch para a desejada
+git branch "" = para trocar de perfil de branch para a desejada
 git checkout -b "nome desejado" = para criar uma branch e ja trocar de perfil
 git switch - = troca para a ultima branch
-git switch "" = troca para a branch desejada
+git switch"" = troca para a branch desejada
 git switch -c "" = cria e troca de branch
 git checkout -f "" = faz a troca de branch porem nao leva junto arquivos modificados que nao foram salvos, desfazendo essas alteracoes
-

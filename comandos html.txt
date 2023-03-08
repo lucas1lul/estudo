@@ -19,3 +19,11 @@ width = para definir a largura da imagem com o valor entre aspas
 para acessar arquivos locais deixamos de fora o link e começaria apos o  /r 
 /img/ = acessar imagens locais
 <img src ="/img/vidaaa.png"> = estrutura para exibir uma imagem local.
+style = atributo para definir um estilo à fonte 
+precisa ter a etiqueta p entre os style com as {} de abertura e fechamento
+<style> </style> 
+<head> <head/> vem antes do style para definir o cabeçalho
+font-family: cursive; para adicionar o tipo da fonte no caso cursive
+font-style: italic; = para adicionar o estilo da fonte no caso italico
+body = para que o comando a seguir sirva para todos os elementos dentro dos {}
+
