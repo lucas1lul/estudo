@@ -65,3 +65,5 @@ git checkout -b "nome desejado" = para criar uma branch e ja trocar de perfil
 git switch - = troca para a ultima branch
 git switch "" = troca para a branch desejada
 git switch -c "" = cria e troca de branch
+git checkout -f "" = faz a troca de branch porem nao leva junto arquivos modificados que nao foram salvos, desfazendo essas alteracoes
+
