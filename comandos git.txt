@@ -75,3 +75,6 @@ code . = abre os arquivos da pasta
 git merge "branch" = faz com que traga os arquivos e atualizações da branch escrita para a branch que você esta.
 git branch --no-merged = checka os arquivos que nao foram mergeados
 git branch --merged = para checkar arquivos que foram mergeados
+git merge --abort = para caso dê conflito, cancelar as alteracoes mergeadas
+git reset --hard =tb desfaz as alteracoes caso dê conflito
+caso dê conflito, da para visualizar no visual Studio embaixo da lupa, onde mostra as diferenciacoes entre as branchs, nos 3 pontinhos de cada branch, vc pode escolher sobre qual branch preferir seguir o trabalho
