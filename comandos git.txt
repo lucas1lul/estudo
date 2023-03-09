@@ -71,3 +71,7 @@ git switch - = troca para a ultima branch
 git switch"" = troca para a branch desejada
 git switch -c "" = cria e troca de branch
 git checkout -f "" = faz a troca de branch porem nao leva junto arquivos modificados que nao foram salvos, desfazendo essas alteracoes
+code . = abre os arquivos da pasta
+git merge "branch" = faz com que traga os arquivos e atualizações da branch escrita para a branch que você esta.
+git branch --no-merged = checka os arquivos que nao foram mergeados
+git branch --merged = para checkar arquivos que foram mergeados
