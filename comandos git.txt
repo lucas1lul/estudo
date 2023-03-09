@@ -78,3 +78,14 @@ git branch --merged = para checkar arquivos que foram mergeados
 git merge --abort = para cancelar o merge
 git reset --hard = para cancelar o merge
 embaixo da lupa no visual code, tem como comparar as branchs caso dê conflito, no caso, em cada lado da branch aparece 3 pontinhos, onde da para escolher com qual branch prosseguir 
+git tag "" = cria uma tag com o nome desejado localmente, na branch escolhida e no commit escolhido.
+git tag -a -m "" = tag mais completa, annotated. leva uma mensagem a mais e o rastreio de quem criou a tag
+git show "" = em aspas a versao da tag desejada, para ver quem criou a tag
+git tag = para ver as tags do projeto
+git tag -n = para ver a descrição das tags, no caso se for tag simples assumira o mesmo nome do commit
+git push tag "" = para enviar a tag para o servior do github
+git push --tags = para enviar todas as tags para o servidor do github
+git checkout "nome da tag" = para viajar ao commit que esta com a tag desejada
+git diff "v0 v1" = para fazer uma comparação entre as duas tags
+git tag -d "" = em aspas o nome da tag, para deletar a tag desejada localmente
+git push --delete origin ""= em aspas o nome da tag, para deletar a tag desejada remotamente
