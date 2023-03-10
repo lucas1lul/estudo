@@ -89,3 +89,15 @@ git checkout "nome da tag" = para viajar ao commit que esta com a tag desejada
 git diff "v0 v1" = para fazer uma comparação entre as duas tags
 git tag -d "" = em aspas o nome da tag, para deletar a tag desejada localmente
 git push --delete origin ""= em aspas o nome da tag, para deletar a tag desejada remotamente
+git stash = salva as mudanças feitas em branchs secundarias, as quais nao terminei e nao posso voltar à branch main com mudanças em salvar, portanto salva-se na memoria. SALVA APENAS ARQUIVOS RASTREADOS
+git stash list = para ver as stashs salvas
+git stash apply = para aplicar a stash salva
+caso tenha mais de um stash salvo, o 0 sempre é o mais recente
+git stash apply stash@{ } = para escolher qual stash usar, com seu respectivo numero no meio das chaves
+git stash pop = para aplicar o ultimo stash criado e ja apagar instantaneamente
+git stash pop stash@{ } = para aplicar o stash desejado e apaga-lo
+git stash drop = apaga o ultimo stash criado
+git stash drop stash@{ } = para apagar o stash desejado
+git stash branch "nome da branch" = cria uma branch a partir do ultimo stash criado
+git stash branch "nome da branch" stash@{ }= cria uma branch a partir do stash desejado
+
