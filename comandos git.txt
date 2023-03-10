@@ -102,4 +102,5 @@ git stash branch "nome da branch" = cria uma branch a partir do ultimo stash cri
 git stash branch "nome da branch" stash@{ }= cria uma branch a partir do stash desejado
 git revert "" = em aspas o endereçamento do commit que quer reverter, para reverter o commit à versão anterior
 git revert "" --no-edit = para reverter a reversão
+git reset --hard HEAD~1 = apaga o ultimo commit e posiciona o HEAD 1 commit atras.
 
