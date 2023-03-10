@@ -100,4 +100,6 @@ git stash drop = apaga o ultimo stash criado
 git stash drop stash@{ } = para apagar o stash desejado
 git stash branch "nome da branch" = cria uma branch a partir do ultimo stash criado
 git stash branch "nome da branch" stash@{ }= cria uma branch a partir do stash desejado
+git revert "" = em aspas o endereçamento do commit que quer reverter, para reverter o commit à versão anterior
+git revert "" --no-edit = para reverter a reversão
 
