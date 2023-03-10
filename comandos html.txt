@@ -26,4 +26,8 @@ precisa ter a etiqueta p entre os style com as {} de abertura e fechamento
 font-family: cursive; para adicionar o tipo da fonte no caso cursive
 font-style: italic; = para adicionar o estilo da fonte no caso italico
 body = para que o comando a seguir sirva para todos os elementos dentro dos {}
+color: black; = para selecionar a cor desejada, dentro da tag style, dentro da tag body, dentro da tag h1
+class = "gray-element" = atributo para definir ao elemento desejado, não à todos os elementos da pagina WEB
+.title = para o titulo
+id ="atributo"
 
