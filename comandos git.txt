@@ -103,4 +103,9 @@ git stash branch "nome da branch" stash@{ }= cria uma branch a partir do stash d
 git revert "" = em aspas o endereçamento do commit que quer reverter, para reverter o commit à versão anterior
 git revert "" --no-edit = para reverter a reversão
 git reset --hard HEAD~1 = apaga o ultimo commit e posiciona o HEAD 1 commit atras.
-
+git commit -a -m "" = para adicionar e commitar ao mesmo tempo
+git reset --mixed HEAD~1 = desfaz commit porem ao usar git diff, da para ver as alteracoes, deixa as mudancas na area de trabalho
+git reset --soft HEAD~1 = desfaz commit porem deixa as mudancas na area de preparacao
+git push --force = caso faça alguma mudança de commit, revertendo e etc. meu repositorio local ficara diferente do remoto, possibilitando o caso de erro na hora de dar push futuramente para o servidor. entao se usa o comando para forçar o envio das mudanças para o remoto
+git push --force-with-lease = força o envio para o repositorio remoto, porem so se nenhuma alteracao remota for perdida. 
+git pull = quando tiver algo remotamente diferente do meu local para pegar os arquivos e depois dar um push. para nao ter que usar o force, pois pode dar uma divergencia ciclica
