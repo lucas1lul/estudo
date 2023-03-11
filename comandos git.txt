@@ -109,3 +109,4 @@ git reset --soft HEAD~1 = desfaz commit porem deixa as mudancas na area de prepa
 git push --force = caso faça alguma mudança de commit, revertendo e etc. meu repositorio local ficara diferente do remoto, possibilitando o caso de erro na hora de dar push futuramente para o servidor. entao se usa o comando para forçar o envio das mudanças para o remoto
 git push --force-with-lease = força o envio para o repositorio remoto, porem so se nenhuma alteracao remota for perdida. 
 git pull = quando tiver algo remotamente diferente do meu local para pegar os arquivos e depois dar um push. para nao ter que usar o force, pois pode dar uma divergencia ciclica
+quando der o END, use a tecla 'q' para poder usar o proximo comando
