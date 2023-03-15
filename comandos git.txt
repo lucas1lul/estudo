@@ -116,3 +116,4 @@ git rebase --continue, para continuar de onde parou, onde deu o erro do rebase, 
 git pull --rebase = vai pegar o que nao tem do servidor remoto e adicionar as mudancas que nao puderam ser enviadas devido a conflito no seu servidor local
 git branch -a = aparecem todas as branchs, locais e remotas
 git fetch origin "branch" = traz parcialmente a branch salva no repositorio remoto
+git rebase -i HEAD~3 = no caso o head indica quantas linhas vc vai juntar em um commit so, usado para juntar commits que nao dariam conflito, trocar o pick por SQUASH, salvar e deixar apenas a mensagem desejada, no caso do commit desejado. para saber se funcionou usar um git diff entre este commit e um anterior para ver as mudanças
