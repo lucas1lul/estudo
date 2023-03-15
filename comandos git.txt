@@ -118,4 +118,8 @@ git branch -a = aparecem todas as branchs, locais e remotas
 git fetch origin "branch" = traz parcialmente a branch salva no repositorio remoto
 git rebase -i HEAD~3 = no caso o head indica quantas linhas vc vai juntar em um commit so, usado para juntar commits que nao dariam conflito, trocar o pick por SQUASH, salvar e deixar apenas a mensagem desejada, no caso do commit desejado. para saber se funcionou usar um git diff entre este commit e um anterior para ver as mudanças
 git cherry-pick "enderecamento" do commit = para pegar um commit de uma branch, trocar de perfil em seguida para o desejado, para levar esse comit a ele. porem vai ficar no HEAD
-
+git bisect start = para comecar o bisect, que nada mais é, que verficar entre um intervalo de enderecamentos de commits, para achar onde esta dando erro
+git bisect good "" = em aspas o enderecamento, para dizer o inicio de onde estava funcionando perfeitamente o programa
+git bisect bad "" = em aspas o enderecamento, para dizer o final de onde nao estava funcionando mais corretamente o programa
+ele vai te colocar em um programa, ja feito o checkout, testar para ver se o programa esta ou nao, se estiver digitar git bisect good e novamente vai refazer o processo. se for bad, digitar git bisect bad, ate achar o programa errado e ele vai te colocar no checkout para corrigir
+git bisect reset = para parar a investigacao do bisect 
