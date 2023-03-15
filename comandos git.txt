@@ -110,3 +110,9 @@ git push --force = caso faça alguma mudança de commit, revertendo e etc. meu r
 git push --force-with-lease = força o envio para o repositorio remoto, porem so se nenhuma alteracao remota for perdida. 
 git pull = quando tiver algo remotamente diferente do meu local para pegar os arquivos e depois dar um push. para nao ter que usar o force, pois pode dar uma divergencia ciclica
 quando der o END, use a tecla 'q' para poder usar o proximo comando
+git rebase "" = em aspas o diretorio que vc quer trazer as atualizações e copiar na branch que vc esta
+git rebase --abort = para cancelar o rebase
+git rebase --continue, para continuar de onde parou, onde deu o erro do rebase, caso de conflito
+git pull --rebase = vai pegar o que nao tem do servidor remoto e adicionar as mudancas que nao puderam ser enviadas devido a conflito no seu servidor local
+git branch -a = aparecem todas as branchs, locais e remotas
+git fetch origin "branch" = traz parcialmente a branch salva no repositorio remoto
