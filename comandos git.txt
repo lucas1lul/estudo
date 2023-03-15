@@ -124,3 +124,7 @@ git bisect bad "" = em aspas o enderecamento, para dizer o final de onde nao est
 ele vai te colocar em um programa, ja feito o checkout, testar para ver se o programa esta ou nao, se estiver digitar git bisect good e novamente vai refazer o processo. se for bad, digitar git bisect bad, ate achar o programa errado e ele vai te colocar no checkout para corrigir
 git bisect reset = para parar a investigacao do bisect 
 git fetch = traz as alteracoes remotas para o repositorio sem executar no repositorio local para que haja a oportunidade de investigar se necessario alguma mudanca e realizar o merge , apenas git merge. pois o git ja vai identificar essa mudanca
+git alias = abreviação == exemplo == git config --global alias.s status = para abreviar o comando status para s
+para comandos com espaço, colocar aspas simples
+git config --global --unset alias.s = para desfazer a abreviação criada
+criei git line, git l e git s
