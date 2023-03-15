@@ -128,3 +128,6 @@ git alias = abreviação == exemplo == git config --global alias.s status = para
 para comandos com espaço, colocar aspas simples
 git config --global --unset alias.s = para desfazer a abreviação criada
 criei git line, git l e git s
+git branch | grep "termo a ser procurado" = para listar as branchs com a denominacao desejada, funciona tambem com os commits no --logline, maiusculo ou minusculo faz diferença na pesquisa
+
+
