@@ -35,3 +35,5 @@ width: 50px; = para mudar a largura da foto
 border: solid; = para adicionar bordas e o tipo dela
 border-radius = propriedade para arredondar os cantos da borda, usando a metade da largura, transforma a imagem em um circulo
 para definir valores de foto , padding = sentido anti horario, cima, direita, baixo, esquerdo
+margin    
+border-radius = ponto superior esquerdo, ponto superior direito, ponto inferior direito, ponto inferior esquerdo.    
