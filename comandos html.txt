@@ -1,14 +1,24 @@
+<head> </head> = dentro da tag colocamos informacoes que sao muito importantes para a pagina, porem nao mostra na pagina
+<body> </body> = tudo que esta contido dentro do body, eh oq o usuario ve
+<meta charset="utf-8" /> = para definir que nossa pagina tera caracteres especiais
 <button> </button> = para adicionar um botao
 <br> = para adicionar uma quebra de linha, nao tem fechamento
 <strong> </strong> = para adicionar negrito no texto
 <em> </em> = para adicionar italico no texto
-<p> </p> = cria um parágrafo
-<h1> </h1> = cria um titulo de tamanho maior
+<u> </u> = para destacar o texto underline
+<strike> </strike> = para traçar o texto escrito
+<ul> </ul> = cria lista nao ordenada, lista com pontinhos antes do escrito
+<li> </li> = usado para escrever as coisas dentro da lista
+<ol> </ol> = cria uma lista ordenada, com numeros antecedendo o que esta escrito
+<p> </p> = cria um parágrafo, dá um espaçamento maior entre as linhas com relaçao ao comando <br>
+<h1> </h1> = cria um titulo de tamanho maior, da um espaçamento maior com relacao ao comando <p>
+<hr> = cria uma linha entre os textos
 <h6> </h6> = cria um titulo de tamanho menor
-<title> </title> = para adicionar um titulo
+<title> </title> = para adicionar um titulo, fica no nome da pagina no navegador
 <!doctype html> = informa que estamos usando a versao mais recente do html
 <html> </html> = vem logo apos o doctype na estrutura da programacao e fecha apos tudo
 <body> </body> = para adicionar o corpo do texto
+<img src="pasta/nomedoarquivo.png" width="100" height="100"> = para definir o local da imagem de onde sera retirada, da tambem para copiar o link  imagem em vez de salvar 
 <a> </a> = para criação de links
 href="" =  é um atributo para vincular o texto a uma pagina WEB
 <img> = para adicionar uma imagem, nao tem fechamento
