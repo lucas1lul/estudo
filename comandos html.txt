@@ -26,6 +26,10 @@ da pra colocar width 100%, que ocupara 100% da tela do navegador, mesmo que aume
 <td> </td> = para adicionar uma linha na tabela, pode ser usado o atributo colspan="" = em aspas o numero de janelas a serem puladas
 da pra se usar tambem o rowspan="" = em aspas o numero de jaelas a serem consumidas, ocupa mais de uma linha
 <th> </th> = para adicionar negrito nas palavras, como se fosse titulo
+<form> </form> = para criar formularios
+dentro dele se coloca o <input> com suas diversas variacoes de atributos
+type="text" , type="password" , type="button" OBS: NO LUGAR DE BUTTON SE USA SUBMIT, PARA COLETAR TODOS OS DADOS ANTES DIGITADOS , type="radio" , type"" name="" , type="checkbox"
+<textarea></textarea> = para adicionar caixa de texto
 href="" =  é um atributo para vincular o texto a uma pagina WEB
 <img> = para adicionar uma imagem, nao tem fechamento
 src = fonte da imagem, vem depois do "img"
