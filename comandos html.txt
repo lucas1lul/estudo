@@ -30,6 +30,7 @@ da pra se usar tambem o rowspan="" = em aspas o numero de jaelas a serem consumi
 dentro dele se coloca o <input> com suas diversas variacoes de atributos
 type="text" , type="password" , type="button" OBS: NO LUGAR DE BUTTON SE USA SUBMIT, PARA COLETAR TODOS OS DADOS ANTES DIGITADOS , type="radio" , type"" name="" , type="checkbox"
 <textarea></textarea> = para adicionar caixa de texto
+&nbsp; = caractere especial para dar espaço na pagina /// existem outros caracteres com outras funcoes
 href="" =  é um atributo para vincular o texto a uma pagina WEB
 <img> = para adicionar uma imagem, nao tem fechamento
 src = fonte da imagem, vem depois do "img"
