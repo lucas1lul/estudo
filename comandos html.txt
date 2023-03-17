@@ -20,6 +20,12 @@
 <body> </body> = para adicionar o corpo do texto
 <img src="pasta/nomedoarquivo.png" width="100" height="100"> = para definir o local da imagem de onde sera retirada, da tambem para copiar o link  imagem em vez de salvar 
 <a> </a> = para criação de links
+<table border ="1" da pra adicionar o atributo width"100" ou heigth"100" > </table> = para criar uma tabela, lembrando que ela tem fechamento
+da pra colocar width 100%, que ocupara 100% da tela do navegador, mesmo que aumente a aba, a tabela vai junto
+<tr> </tr> = para adicionar uma coluna na tabela
+<td> </td> = para adicionar uma linha na tabela, pode ser usado o atributo colspan="" = em aspas o numero de janelas a serem puladas
+da pra se usar tambem o rowspan="" = em aspas o numero de jaelas a serem consumidas, ocupa mais de uma linha
+<th> </th> = para adicionar negrito nas palavras, como se fosse titulo
 href="" =  é um atributo para vincular o texto a uma pagina WEB
 <img> = para adicionar uma imagem, nao tem fechamento
 src = fonte da imagem, vem depois do "img"
