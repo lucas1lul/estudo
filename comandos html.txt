@@ -49,6 +49,8 @@ SELETORES, ADICIONAR COM ABRE E FECHA CHAVES, PARA SERVIR AO CODIGO INTEIRO, COM
 font-family: cursive; para adicionar o tipo da fonte no caso cursive
 font-style: italic; = para adicionar o estilo da fonte no caso italico
 body = para que o comando a seguir sirva para todos os elementos dentro dos {}
+span = elemento inline
+div = quebra o bloco pra baixo, utilizadas em cada bloco de sites
 color: black; = para selecionar a cor desejada, dentro da tag style, dentro da tag body, dentro da tag h1
 class = "gray-element" = atributo para definir ao elemento desejado, não à todos os elementos da pagina WEB
 classes "." podem ser aplicadas varias vezes enquanto o id "#", deve ser aplicado somente uma vez 
@@ -61,4 +63,7 @@ border: solid; = para adicionar bordas e o tipo dela
 border-radius = propriedade para arredondar os cantos da borda, usando a metade da largura, transforma a imagem em um circulo
 para definir valores de foto , padding = sentido anti horario, cima, direita, baixo, esquerdo
 margin    
-border-radius = ponto superior esquerdo, ponto superior direito, ponto inferior direito, ponto inferior esquerdo.    
+border-radius = ponto superior esquerdo, ponto superior direito, ponto inferior direito, ponto inferior esquerdo.
+https://html-color-codes.info/Codigos-de-Cores-HTML/ = site de codigo de Cores
+https://www.w3schools.com/css/css_border.asp = site de bordas e etc
+https://www.w3schools.com/cssref/css_fonts_fallbacks.php = site de fontes
