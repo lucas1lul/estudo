@@ -43,14 +43,18 @@ para acessar arquivos locais deixamos de fora o link e começaria apos o  /r
 style = atributo para definir um estilo à fonte, pode se adicionar ao <p>, ao <h1>, pode adicionar color: red; , pode adicionar border: 1px solid blue; 
 precisa ter a etiqueta p entre os style com as {} de abertura e fechamento
 <style> </style> 
+SELETORES, ADICIONAR COM ABRE E FECHA CHAVES, PARA SERVIR AO CODIGO INTEIRO, COMO P, H1. DEVE SE COLOCAR O <STYLE></STYLE>
 <head> <head/> vem antes do style para definir o cabeçalho
+."" = em aspas o nome da classe a ser declarado. depois é so escrever class="" dentro de um p ou h1 , para aderir a classe ao atributo
 font-family: cursive; para adicionar o tipo da fonte no caso cursive
 font-style: italic; = para adicionar o estilo da fonte no caso italico
 body = para que o comando a seguir sirva para todos os elementos dentro dos {}
 color: black; = para selecionar a cor desejada, dentro da tag style, dentro da tag body, dentro da tag h1
 class = "gray-element" = atributo para definir ao elemento desejado, não à todos os elementos da pagina WEB
+classes "." podem ser aplicadas varias vezes enquanto o id "#", deve ser aplicado somente uma vez 
 .title = para o titulo
 id ="atributo"
+id = atruibuir a uma unica coisa, usar somente uma vez, pois ele é um identificador unico de cada elemento da pagina
 height: 50px; = para mudar o tamanho da foto 
 width: 50px; = para mudar a largura da foto
 border: solid; = para adicionar bordas e o tipo dela
