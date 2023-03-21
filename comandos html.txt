@@ -40,7 +40,7 @@ width = para definir a largura da imagem com o valor entre aspas
 para acessar arquivos locais deixamos de fora o link e começaria apos o  /r 
 /img/ = acessar imagens locais
 <img src ="/img/vidaaa.png"> = estrutura para exibir uma imagem local.
-style = atributo para definir um estilo à fonte 
+style = atributo para definir um estilo à fonte, pode se adicionar ao <p>, ao <h1>, pode adicionar color: red; , pode adicionar border: 1px solid blue; 
 precisa ter a etiqueta p entre os style com as {} de abertura e fechamento
 <style> </style> 
 <head> <head/> vem antes do style para definir o cabeçalho
