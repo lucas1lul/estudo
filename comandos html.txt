@@ -67,3 +67,6 @@ border-radius = ponto superior esquerdo, ponto superior direito, ponto inferior 
 https://html-color-codes.info/Codigos-de-Cores-HTML/ = site de codigo de Cores
 https://www.w3schools.com/css/css_border.asp = site de bordas e etc
 https://www.w3schools.com/cssref/css_fonts_fallbacks.php = site de fontes
+font-size: 16px; = tamanho padrao da fonte dos textos em sites
+1em = faz com que os textos se relacione proporcionalmente com o div por fora
+font-weight: bold; = colocar negrito
