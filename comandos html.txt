@@ -35,7 +35,7 @@ href="" =  é um atributo para vincular o texto a uma pagina WEB
 <img> = para adicionar uma imagem, nao tem fechamento
 src = fonte da imagem, vem depois do "img"
 height = para definir altura da imagem, com o valor entre aspas
-width = para definir a largura da imagem com o valor entre aspas
+width = para definir a largura da imagem com o valor entre aspa#s
 /r = é uma pasta armazenada no computador, colocada apos o link e antes do nome do arquivo em especifico por ex: "https://globo.com/r/vidaa.png"
 para acessar arquivos locais deixamos de fora o link e começaria apos o  /r 
 /img/ = acessar imagens locais
@@ -62,7 +62,10 @@ width: 50px; = para mudar a largura da foto
 border: solid; = para adicionar bordas e o tipo dela
 border-radius = propriedade para arredondar os cantos da borda, usando a metade da largura, transforma a imagem em um circulo
 para definir valores de foto , padding = sentido anti horario, cima, direita, baixo, esquerdo
-margin    
+margin: 30px auto; = faz com que centralize na margem na pagina
+criando uma variavel e colocando o atributo position dentro dele, pode se ter a relative, a "caixa" ficara relativa a ela mesma dependendo das caracteristicas, left, top, width que vc colocar
+position: absolute; a caixa ocupara espaco mesmo apos nao ter mais nada escrito
+position: fixed; fica preso num local da pagina, como anuncios e etc
 border-radius = ponto superior esquerdo, ponto superior direito, ponto inferior direito, ponto inferior esquerdo.
 https://html-color-codes.info/Codigos-de-Cores-HTML/ = site de codigo de Cores
 https://www.w3schools.com/css/css_border.asp = site de bordas e etc
