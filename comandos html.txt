@@ -66,6 +66,9 @@ margin: 30px auto; = faz com que centralize na margem na pagina
 criando uma variavel e colocando o atributo position dentro dele, pode se ter a relative, a "caixa" ficara relativa a ela mesma dependendo das caracteristicas, left, top, width que vc colocar
 position: absolute; a caixa ocupara espaco mesmo apos nao ter mais nada escrito
 position: fixed; fica preso num local da pagina, como anuncios e etc
+elementos inline ficam em linha
+elementos block, normalmente um abaixo do outro, a maioria eh elemento block
+elementos inline-block tem a largura definida no tamanho do conteudo, usa-se o atributo display
 border-radius = ponto superior esquerdo, ponto superior direito, ponto inferior direito, ponto inferior esquerdo.
 https://html-color-codes.info/Codigos-de-Cores-HTML/ = site de codigo de Cores
 https://www.w3schools.com/css/css_border.asp = site de bordas e etc
@@ -73,3 +76,7 @@ https://www.w3schools.com/cssref/css_fonts_fallbacks.php = site de fontes
 font-size: 16px; = tamanho padrao da fonte dos textos em sites
 1em = faz com que os textos se relacione proporcionalmente com o div por fora
 font-weight: bold; = colocar negrito
+links = link, hover, active
+link hover = passar o cursor por cima e mudar a cor
+link active = quando clicado muda a cor, pode se adicionar background, color, padding dentro dess formatacoes
+a{} = text-decoration: none; = tira o sublinhado dos links
