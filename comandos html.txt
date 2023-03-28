@@ -80,3 +80,4 @@ links = link, hover, active
 link hover = passar o cursor por cima e mudar a cor
 link active = quando clicado muda a cor, pode se adicionar background, color, padding dentro dess formatacoes
 a{} = text-decoration: none; = tira o sublinhado dos links
+css externo = criando uma pagina com as referencias do CSS e com o <link> adicionar a referencia da pagina
