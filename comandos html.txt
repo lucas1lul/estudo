@@ -95,3 +95,8 @@ problemas de incompatibilidade caso o navegador não seja atualizado, usar o usi
 type email, type nome, type number min, max, step, type url, type submit value enviar, type search, type range min max value para começar com um valor, type data, type color 
 dentro do input, ainda existe o required, para so poder avançar com o campo preenchido, existe tb o placeholder para ficar meio transparente os exemplos do que é para ser preenchido no campo
 existe tambem dentro do input, o autofocus, para o campo ficar marcado so ao abrir a pagina 
+backgound: rgba(255,255,255,0,2) = este ultimo para dizer entre 0 e 1 os niveis de transparencia do background, pode-se utilizar em titulos, imagens
+text-shadow: 10px 10px 20px black; = para adicionar sombra, primeiro parametro movimenta a sombra horizontalmente, segundo parametro movimenta a sombra verticalmente terceiro parametro, no caso ali o 20px, ele é responsavel pelo BLUR, quarto parametro responsavel pelo spread, no caso vai espalhar mais a sombra  
+box-shadow: faz as mesmas coisas, no caso na caixa inteira 
+ao adicionar uma virgula e colcoar as mesmas propriedades com novos parametros, cria-se uma nova sombra espelhando
+transicoes e animacoes se esquecer olhar propriedades na pasta de CSS3 no notebook
