@@ -81,3 +81,17 @@ link hover = passar o cursor por cima e mudar a cor
 link active = quando clicado muda a cor, pode se adicionar background, color, padding dentro dess formatacoes
 a{} = text-decoration: none; = tira o sublinhado dos links
 css externo = criando uma pagina com as referencias do CSS e com o <link> adicionar a referencia da pagina
+<header></header> abre o cabeçalho 
+<nav> <\nav> navegação de menu
+<footer> </footer> rodapé, exemplo colocar &copy, para adicionar sigla copyright, exemplo: &copy; 2016 - Lucas 
+<section></section> adiciona uma sessão 
+<article><\article> adiciona um artículo 
+<aside></aside> tag de separação (?)
+<time><\time> tag para atribuir horários e datas 
+problemas de incompatibilidade caso o navegador não seja atualizado, usar o using bowser no arquivo em questão, procurar o arquivo html5shiv.js, criar uma pasta JS no sublime e copiar e colar e salvar como o próprio nome
+<form></form> = adiciona um formulario
+<label for =""></label>
+<input type="" id""><
+type email, type nome, type number min, max, step, type url, type submit value enviar, type search, type range min max value para começar com um valor, type data, type color 
+dentro do input, ainda existe o required, para so poder avançar com o campo preenchido, existe tb o placeholder para ficar meio transparente os exemplos do que é para ser preenchido no campo
+existe tambem dentro do input, o autofocus, para o campo ficar marcado so ao abrir a pagina 
